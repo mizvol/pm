@@ -1,3 +1,3 @@
 export default {
-  dataUrl: '//anvaka.github.io/galactic-data/'
+  dataUrl: 'https://raw.githubusercontent.com/mizvol/ngraph-sandbox/master/galactic-data/'
 };
