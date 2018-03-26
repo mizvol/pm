@@ -6,7 +6,7 @@ export default require('maco').template(npmTempalte, React);
 function npmTempalte(props) {
   var model = props.model;
 
-  var link = 'https://www.npmjs.org/package/' + model.name;
+  var link = 'https://en.wikipedia.org/wiki/' + model.name;
   var linkText = model.name;
 
   return commonPackageTemplate(model, link, linkText);

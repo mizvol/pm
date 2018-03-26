@@ -38,11 +38,11 @@ function PackagesGraph(graphName) {
   DefaultGraph.call(this, graphName);
 
   this.getInDegreeLabel = function getInDegreeLabel(inDegreeValue) {
-    return inDegreeValue === 1 ? 'dependent' : 'dependents';
+    return inDegreeValue === 1 ? 'referral' : 'referrals';
   };
 
   this.getOutDegreeLabel = function getInDegreeLabel(outDegreeValue) {
-    return outDegreeValue === 1 ? 'dependency' : 'dependencies';
+    return outDegreeValue === 1 ? 'reference' : 'references';
   };
 }
 
